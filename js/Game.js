@@ -177,6 +177,8 @@ class Game{
                    player.update();
             }
          }
+        if(player.score>100){
+            gameState.update(2);
         }
     end(){
        console.log("Game Ended");
